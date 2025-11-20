@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save The Sea</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .design-container {
+            position: relative;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .design-image {
+            width: auto;
+            height: 100vh;
+            display: block;
+            margin: auto;
+        }
+
+        /* updated style for HERE buttons */
+        .design-container a {
+            position: absolute;
+            font-size: 1.8vh;
+            font-weight: normal;
+            color: black;               
+            text-decoration: underline;
+            cursor: pointer;
+            background: rgba(255,255,255,0);
+            padding: 2px 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="design-container">
+        <img src="STS.png" class="design-image">
+
+        <a class="link" href="awarness1.html" target="_blank" style="left: 58%; top: 22%;">here</a>
+        <a class="link" href="campaigns1.html" target="_blank" style="left: 53%; top: 34%;">here</a>
+        <a class="link" href="BoatTrips1.html" target="_blank" style="left: 59%; top: 52%;">here</a>
+        <a class="link" href="Donations1.html" target="_blank" style="left: 43%; top: 64%;">here</a>
+
+    </div>
+
+</body>
+</html>
